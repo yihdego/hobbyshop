@@ -1,24 +1,9 @@
-# README
+# E-Commerce for Hobby Shops
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A Ruby on Rails full-stack web application for physical hobby stores.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Ruby version
+  * 2.3.1+
+  
+# System dependencies
+  * TCGPlayer API
