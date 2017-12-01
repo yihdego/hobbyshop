@@ -31,9 +31,25 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# HTTP Client
+gem 'httparty'
+# Akin to normalize css file
+gem 'normalize-rails'
+# User authentication
+gem 'devise'
+
+group :test do
+  gem 'rspec-rails'
+  gem 'simplecov', require: false
+  gem 'rails-controller-testing'
+  gem "factory_bot_rails", "~> 4.0"
+  gem 'database_cleaner'
+end
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'dotenv-rails'
 end
 
 group :development do
